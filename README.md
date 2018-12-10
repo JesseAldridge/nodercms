@@ -37,3 +37,47 @@ $ npm start
 ## License
 GNU AFFERO GENERAL PUBLIC LICENSE
 Version 3, 19 November 2007
+
+--------
+
+# NoderCMS - Lightweight Content Management System
+
+Developed using Node.js + MongoDB, NoderCMS has a flexible content model and a comprehensive privilege role mechanism.
+
+[Official Website](http://www.nodercms.com) | [Help Center](http://www.nodercms.com/help) | QQ Group: 369888346
+
+
+## Demo
+- address：[http://demo.nodercms.com](http://demo.nodercms.com)
+- backend：[http://demo.nodercms.com/admin](http://demo.nodercms.com/admin)
+- username：ghost@nodercms.com
+- password：123456
+
+## Install
+
+```bash
+$ npm install --production
+$ npm start
+```
+
+When you are done, go to http://localhost:3000/admin/install and go to the installer.
+
+**Environment Requirements：**
+
+1. [Node.js](https://www.nodejs.org) v4.4.3 and above
+2. [Mongodb](https://www.mongodb.org) v3.0.6 and above
+
+## Re-Install
+1. Clear the database
+2. Remove /install.lock
+3. Go to http://localhost:3000/admin/install to enter the installer
+
+
+### common problem
+- [Use Nginx to reverse proxy NoderCMS](http://www.nodercms.com/help/installation/shi-yong-nginx-lai-fan-xiang-dai-li-duo-ge-nodercms)
+- [Use pm2 to protect NoderCMS](http://www.nodercms.com/help/installation/shi-yong-pm2-lai-shou-hu-nodercms)
+- [Recommended call instructions](http://www.nodercms.com/help/themes/features)
+
+## License
+GNU AFFERO GENERAL PUBLIC LICENSE
+Version 3, 19 November 2007
